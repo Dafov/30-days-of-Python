@@ -1,6 +1,6 @@
 from flask import Flask
-from scrape import  run as scrape_runner
-from logger import trigger_log_save
+from .scrape import  run as scrape_runner
+from .logger import trigger_log_save
 
 from waitress import serve
 
