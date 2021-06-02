@@ -17,10 +17,12 @@ clip = VideoFileClip(source_path)
 fps = clip.reader.fps
 subclip = clip.subclip(10, 20)
 subclip = subclip.resize(width=500)
-# subclip.write_gif(output_path1, fps=fps, program='ffmpeg')
+
+subclip.write_gif(output_path1, fps=fps, program='ffmpeg')
+
 
 w, h = clip.size
 subclip2 = clip.subclip(10, 20)
 square_cropped_clip = crop(subclip2, width=320, height=320, x_center=w/2, y_center=h/2)
 
-# square_cropped_clip.write_gif(output_path2, fps=fps, program='ffmpeg')
+square_cropped_clip.write_gif(output_path2, fps=fps, program='ffmpeg')
