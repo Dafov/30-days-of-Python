@@ -3,6 +3,7 @@ from conf import SAMPLE_INPUTS, SAMPLE_OUTPUTS
 from moviepy.editor import *
 from PIL import Image
 
+
 source_path = os.path.join(SAMPLE_INPUTS, 'sample.mp4')
 thumbnail_dir = os.path.join(SAMPLE_OUTPUTS, "thumbnails")
 thumbnail_per_frame_dir = os.path.join(SAMPLE_OUTPUTS, "thumbnails-per-frame")

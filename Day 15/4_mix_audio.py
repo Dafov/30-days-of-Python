@@ -1,7 +1,6 @@
 from conf import SAMPLE_INPUTS, SAMPLE_OUTPUTS
 from moviepy.editor import *
-from moviepy.audio.fx.all import volumex
-from PIL import Image
+
 
 source_path = os.path.join(SAMPLE_INPUTS, 'sample.mp4')
 source_audio_path = os.path.join(SAMPLE_INPUTS, 'audio.mp3')

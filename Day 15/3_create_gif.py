@@ -1,7 +1,6 @@
 import os
 from conf import SAMPLE_INPUTS, SAMPLE_OUTPUTS
 from moviepy.editor import *
-from PIL import Image
 from moviepy.video.fx.all import crop
 
 
