@@ -2,6 +2,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+
 # environment variables
 username = 'pytestsender@gmail.com'
 password = 'Testmail2021'
