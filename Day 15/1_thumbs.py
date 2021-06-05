@@ -29,7 +29,6 @@ for i in range(0, max_duration):
     new_img.save(new_img_filepath)
 
 
-
 fps = clip.reader.fps
 nframes = clip.reader.nframes
 seconds = nframes / (fps * 1.0)

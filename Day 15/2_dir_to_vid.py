@@ -15,7 +15,6 @@ filepaths = [os.path.join(thumbnail_dir, fname) for fname in this_dir if fname.e
 # clip = ImageSequenceClip(filepaths, fps=1)
 # clip.write_videofile(output_video)
 
-
 directory = {}
 
 for root, dirs, files in os.walk(thumbnail_per_frame_dir):

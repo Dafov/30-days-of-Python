@@ -27,7 +27,6 @@ bg_music = bg_music.volumex(0.10)
 final_audio = CompositeAudioClip([original_audio, bg_music])
 final_audio.write_audiofile(final_audio_path, fps=original_audio.fps)
 
-
 # new_audio = AudioFileClip(final_audio_path)
 # final_clip = video_clip.set_audio(new_audio)
 

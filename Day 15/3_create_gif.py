@@ -20,6 +20,7 @@ subclip = subclip.resize(width=500)
 subclip.write_gif(output_path1, fps=fps, program='ffmpeg')
 
 
+
 w, h = clip.size
 subclip2 = clip.subclip(10, 20)
 square_cropped_clip = crop(subclip2, width=320, height=320, x_center=w/2, y_center=h/2)
