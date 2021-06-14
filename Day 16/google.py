@@ -37,3 +37,4 @@ submit_btn_el = browser.find_element_by_css_selector("input[type='submit']")
 # print(submit_btn_el.get_attribute('name'))
 time.sleep(2)
 submit_btn_el.click()
+

@@ -27,4 +27,3 @@ password_el.send_keys(INSTA_PASSWORD)
 time.sleep(1.5)
 submit_btn_el = browser.find_element_by_css_selector("button[type='submit']")
 submit_btn_el.click()
-
